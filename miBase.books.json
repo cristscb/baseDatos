@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "65179dce2324d8f95289e9a0"
+  },
+  "nombre": "cristian camilo",
+  "apellido": "beltran acosta",
+  "identificacion": 1031159503,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65179e9e2324d8f95289e9a2"
+  },
+  "nombre": "María",
+  "apellido": "López González\t",
+  "identificacion": 123456789,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65179efa2324d8f95289e9a4"
+  },
+  "nombre": "Juan Carlos",
+  "apellido": "García Rodríguez",
+  "identificacion": 987654321,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65179f222324d8f95289e9a7"
+  },
+  "nombre": "Ana María",
+  "apellido": "Martínez Fernández",
+  "identificacion": 456789123,
+  "__v": 0
+}]

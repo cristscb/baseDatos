@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilos.css">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lobster&display=swap" rel="stylesheet">
+
+
+    <title>Base empleados</title>
+</head>
+<body>
+    <header class="nav">
+        <h1 class="nav_h1">Base de datos empleados</h1>
+        <nav>
+            <div class="nav_inicio">
+                <h2 class="nav_inicio-h2">inicio</h2>
+                <a class="nav_inicio-a" href="/index.html"><img src="/images/pagina-de-inicio.png" alt="inicio"></a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="form_datos">
+        <div class="contenedor_form">
+            <form id="bookForm">
+                <div class="form_datos-todos">
+                    <label for="">Nombres</label>
+                    <input type="text" placeholder="Digite sus nombres" name="nombre" required >
+                </div>
+    
+                <div class="form_datos-todos">
+                    <label for="">Apellidos</label>
+                    <input type="text" placeholder="Digite sus Apellidos" name="apellido" required>
+                </div>
+        
+                <div class="form_datos-todos">
+                    <label for="">Identificacion</label>
+                    <input type="number" placeholder="Digite su Identificacion" name="identificacion" required>  
+                </div>
+                <button type="submit">enviar datos</button>
+                <div class="form_datos-img">
+                    <img src="/images/usuario.png" alt="">
+                </div>
+            </form>
+        </div>
+
+
+    </section>
+
+    <section class="form_lista">
+        <div class="form_lista-h2">
+            <h2>Lista de empleados</h2>
+        </div>
+        <div class="form_lista-botones">
+            <button id="mostrar">mostrar datos</button>
+            <button id="limpiar">limpiar</button>
+            <ol id="bookList"></ol>
+        </div>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>

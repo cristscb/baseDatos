@@ -1,0 +1,110 @@
+body{
+    background:  #444;
+}
+header{
+    position: absolute;
+    top: 0px;
+    height: 60px;
+    width: 100%;
+    background-color: #000000;
+
+}
+h1 ,h2{
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    font-weight: 100;
+    color: #ffffff;
+    
+}
+.nav_inicio img {
+    height: 100%;
+    width: 100%;
+}
+.nav_inicio {
+    width: 40px;
+    height: 40px;
+}
+.nav_h1{
+    position: relative;
+    left: 300px;
+    top: 0px;
+}
+.nav_inicio-h2{
+    position: relative;
+    top: -40px;
+    left: 60px;
+}
+.nav_inicio-a{
+    position: relative;
+    top: -100px;
+    left: 5px;
+}
+
+.form_datos{
+    position: relative;
+    top: 150px;
+    width: 100%;
+    height: 100px;
+    padding: 30px;
+}
+.form_datos-todos{
+    margin: 8px;
+}
+.form_datos-todos input {
+    position: relative;
+    left: 30px;
+    border: none;
+    outline: none;
+    border-bottom: solid 2px #000000;
+    
+}
+.form_datos-img {
+    height: 150px;
+    width: 200px;
+    position: absolute;
+    left: 600px;
+    top: 0px;
+}
+.form_datos-img img{
+    width: 100%;
+    height: 100%;
+}
+.form_lista{
+    position: relative;
+    top: 250px;
+    height: 500px;
+    width: 100%;
+
+    padding: 30px;
+}
+.contenedor_form{
+    position: absolute;
+    top: 15px;
+    border: solid 2px #000000;
+    display: inline-block;
+    padding: 10px;
+    width: 350px;
+    border-radius: 3%;
+ 
+}
+.form_lista-h2{
+    position: relative;
+    left: 500px;
+}
+.form_lista-h2 h2{
+
+    font-size: 40px;
+
+}
+.form_lista-botones {
+
+    position: relative;
+    top: 50px;    
+}
+.form_lista-botones ol {
+    font-size: 20px;
+    color: #ffffff;
+    position: relative;
+    left: 200px;
+}
